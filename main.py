@@ -6,7 +6,10 @@ app = FastAPI()
 def home():
     return{"welcome Message : ":"this is the home page"}
 
+@app.get('/about')
+def about():
+    return{"name : " : "My name is Dhruva Maheshwari"}
 
-
-
-    
+@app.get("/health")
+def health():
+    return{"status": "healthy"}
