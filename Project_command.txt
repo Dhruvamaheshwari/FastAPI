@@ -1,3 +1,4 @@
 1. python -m venv venv
 2. venv\Scripts\activate
 3. pip install "fastapi[standard]"
+4. fastapi dev <file_name>
